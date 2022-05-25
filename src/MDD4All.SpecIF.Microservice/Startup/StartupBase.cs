@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Prometheus;
+// using Prometheus;
 
 namespace MDD4All.SpecIF.Microservice.Startup
 {
@@ -282,8 +282,9 @@ namespace MDD4All.SpecIF.Microservice.Startup
             
             app.UseAuthorization();
 
-            app.UseMetricServer();
-            app.UseHttpMetrics();
+            // Burke - commented the following 2 lines
+            // app.UseMetricServer();
+            // app.UseHttpMetrics();
 
             app.UseEndpoints(endpoints =>
             {

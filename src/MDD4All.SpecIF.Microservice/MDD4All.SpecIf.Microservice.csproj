@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\work\github\SpecIF-Backend\src\MDD4All.SpecIF.Microservice\MDD4All.SpecIF.Microservice.xml</DocumentationFile>
+    <DocumentationFile>..\..\MDD4All.SpecIF.Microservice\MDD4All.SpecIF.Microservice.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>D:\work\github\SpecIF-Backend\src\MDD4All.SpecIF.Microservice\MDD4All.SpecIF.Microservice.xml</DocumentationFile>
+    <DocumentationFile>..\..\SpecIF-Backend\src\MDD4All.SpecIF.Microservice\MDD4All.SpecIF.Microservice.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,18 +31,18 @@
 
 
     <ItemGroup>
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.Contracts\MDD4All.SpecIF.DataIntegrator.Contracts.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.EA\MDD4All.SpecIF.DataIntegrator.EA.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.KafkaListener\MDD4All.SpecIF.DataIntegrator.KafkaListener.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.Contracts\src\MDD4All.SpecIF.DataIntegrator.Contracts\MDD4All.SpecIF.DataIntegrator.Contracts.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.EA\src\MDD4All.SpecIF.DataIntegrator.EA\MDD4All.SpecIF.DataIntegrator.EA.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.KafkaListener\src\MDD4All.SpecIF.DataIntegrator.KafkaListener\MDD4All.SpecIF.DataIntegrator.KafkaListener.csproj" />
         <ProjectReference Include="..\MDD4All.SpecIF.DataModels.RightsManagement\src\MDD4All.SpecIF.DataModels.RightsManagement\MDD4All.SpecIF.DataModels.RightsManagement.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.EA\MDD4All.SpecIF.DataProvider.EA.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.File\MDD4All.SpecIF.DataProvider.File.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Integration\MDD4All.SpecIF.DataProvider.Integration.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Jira\MDD4All.SpecIF.DataProvider.Jira.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.MongoDB\MDD4All.SpecIF.DataProvider.MongoDB.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ServiceDataProvider\MDD4All.SpecIF.ServiceDataProvider.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.IntegrationService\MDD4All.SpecIF.ViewModels.IntegrationService.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.SpecIfEvent\MDD4All.SpecIF.ViewModels.SpecIfEvent.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.EA\src\MDD4All.SpecIF.DataProvider.EA\MDD4All.SpecIF.DataProvider.EA.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.File\src\MDD4All.SpecIF.DataProvider.File\MDD4All.SpecIF.DataProvider.File.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Integration\src\MDD4All.SpecIF.DataProvider.Integration\MDD4All.SpecIF.DataProvider.Integration.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Jira\src\MDD4All.SpecIF.DataProvider.Jira\MDD4All.SpecIF.DataProvider.Jira.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.MongoDB\src\MDD4All.SpecIF.DataProvider.MongoDB\MDD4All.SpecIF.DataProvider.MongoDB.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvider\MDD4All.SpecIF.ServiceDataProvider.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.IntegrationService\src\MDD4All.SpecIF.ViewModels.IntegrationService\MDD4All.SpecIF.ViewModels.IntegrationService.csproj" />
+        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.SpecIfEvent\src\MDD4All.SpecIF.ViewModels.SpecIfEvent\MDD4All.SpecIF.ViewModels.SpecIfEvent.csproj" />
     </ItemGroup>
     <ItemGroup>
         <Reference Include="Interop.EA">
