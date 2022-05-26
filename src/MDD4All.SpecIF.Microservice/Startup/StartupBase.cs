@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-// using Prometheus;
+using Prometheus;
 
 namespace MDD4All.SpecIF.Microservice.Startup
 {

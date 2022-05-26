@@ -97,8 +97,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.SpecIF.DataProvider
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.Excel.DataAccess-dev", "MDD4All.Excel.DataAccess\src\MDD4All.Excel.DataAccess\MDD4All.Excel.DataAccess-dev.csproj", "{607ED0C9-33F1-4C05-A494-9C869C58EB26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.SpecIF.DataModels-dev", "MDD4All.SpecIF.DataModels\src\MDD4All.SpecIF.DataModels\MDD4All.SpecIF.DataModels-dev.csproj", "{6072F3DE-1D49-474C-A028-DA77F03AFDD8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.SpecIF.DataModels.DiagramInterchange-dev", "MDD4All.SpecIF.DataModels.DiagramInterchange\src\MDD4All.SpecIF.DataModels.DiagramInterchange\MDD4All.SpecIF.DataModels.DiagramInterchange-dev.csproj", "{66863EDF-4051-4B12-804D-652A6A102450}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.EnterpriseArchitect.SvgGenerator-dev", "SvgGeneration\src\MDD4All.EnterpriseArchitect.SvgGenerator\MDD4All.EnterpriseArchitect.SvgGenerator-dev.csproj", "{0352527A-13AA-489F-A56B-1197156182AC}"

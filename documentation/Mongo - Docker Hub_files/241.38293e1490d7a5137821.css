@@ -1,0 +1,4374 @@
+.styles__cta___3UR2K {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3FlU- {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1igms {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1igms {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___6fUoO {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___6fUoO {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__link___nd3bL {
+  color: #8f9ea8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3_QKa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___14AE4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___14AE4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1e8JB {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1e8JB {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__bottomSpacing___3cj8a {
+  margin-bottom: 24px;
+}
+
+.styles__tabStyle___3Gax6 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.styles__selectedTab___2eA_V {
+  border-bottom: solid 2px #2496ed;
+}
+
+.styles__selectedTab___2eA_V .styles__name___2OA3Q,
+  .styles__selectedTab___2eA_V .styles__price___3MGH4 {
+    font-weight: bold;
+  }
+
+.styles__tab___3XAfE {
+  border-bottom: solid 1px #e0e4e7;
+}
+
+.styles__tabs___1lIJi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__price___3MGH4 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 12px;
+}
+
+.styles__byolPrice___ags5n {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__byolPrice___ags5n svg {
+    fill: #8f9ea8;
+  }
+
+.styles__byolPrice___ags5n > :first-child {
+    margin-right: 8px;
+  }
+
+.styles__iconRow___LkkvH {
+  margin-bottom: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__iconRow___LkkvH > :first-child {
+    margin-right: 8px;
+  }
+
+.styles__noPricingIconRow___1783Z {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.styles__description___3meEx {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 12px;
+}
+
+.styles__description___3meEx p {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+.styles__terms___2skbu {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+}
+
+.styles__verticalBar___9xYjB {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.styles__hr___bCFpK {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.styles__flex___2ZQ7A {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3-dvy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1go7f {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1go7f {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___3Prs6 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___3Prs6 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__options___34s_R {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.styles__optionsRadio___eafJS {
+  margin: 12px 0;
+}
+
+.styles__dropdown___wJQKi {
+  margin-bottom: 16px;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___1dzB_ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___25jjA {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___25jjA {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___XMuUC {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___XMuUC {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__buttonWrapper___32YLI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.styles__button___29ZAi {
+  margin: 0;
+  cursor: pointer;
+}
+
+.styles__button___29ZAi > a {
+    text-decoration: none;
+  }
+
+.styles__checkoutButton___1Livj {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 44px;
+}
+
+.styles__preview___25Mbs {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: #e0e4e7;
+  color: #8f9ea8;
+  padding: 48px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2px;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.styles__well___-MDiQ {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f7f8;
+  border-radius: 2px;
+  color: #8f9ea8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 12px;
+  min-height: 44px;
+}
+
+.styles__byol___2wege {
+  margin-bottom: 0;
+  padding: 12px 12px;
+  text-align: center;
+}
+
+.styles__checkIcon___1zjVv {
+  fill: #70c9a0;
+  margin-right: 12px;
+  position: relative;
+}
+
+.styles__flexColumn___1pIsX {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.styles__linkWrapper___1J-xA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__checkoutLink___kjJmm {
+  color: #2496ed;
+  margin-left: 4px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.styles__checkoutLink___kjJmm:hover {
+  color: #066da5;
+}
+
+.styles__entitlementLink___4j86b {
+  text-decoration: underline;
+}
+
+.styles__title___3kAJo {
+  cursor: pointer;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center
+}
+
+.styles__title___3kAJo::before {
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  content: '';
+  margin-right: 8px;
+  margin-right: 0.5rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #8f9ea6;
+}
+
+.styles__expanded___3iLzM::before {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___g3inR {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___ciH-K {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___ciH-K {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1j_6N {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1j_6N {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__star___1pg5h {
+  fill: #c0c9ce;
+}
+
+.styles__filled___3Jw3z {
+  fill: #2496ed;
+}
+
+.styles__clickable___2qQDU {
+  cursor: pointer;
+}
+
+.styles__clickable___2qQDU > svg:hover {
+    fill: #2496ed;
+  }
+
+/* Highlight the other stars after the hovered star
+ * Because the stars are in reverse order (see .reverseStars),
+ * this will appear to highlight the stars BEFORE the hovered star
+ */
+
+.styles__clickable___2qQDU:hover ~ .styles__clickable___2qQDU > svg {
+    fill: #2496ed;
+  }
+
+/* Display stars in the opposite order */
+
+.styles__reverseStars___PvvJf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3o_sX {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___2p3G4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___2p3G4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___3eyWD {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___3eyWD {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__bottomSpacing___2yUph {
+  margin-bottom: 20px;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___cqiAZ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___3XBeJ {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___3XBeJ {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1m4dP {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1m4dP {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__sectionTitle___3jG8Y {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.styles__ctas___3YYfr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.styles__reviewContentInReplyDialog___v9noy {
+  margin-top: -20px;
+}
+
+.styles__reviewText___Ubgw9 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  width: 100%;
+  max-width: 100%;
+  height: 125px;
+  border: solid 1px #e0e4e7;
+  border-radius: 2px
+}
+
+.styles__reviewText___Ubgw9:focus {
+  outline: none;
+}
+
+/* Same errorText from Select */
+
+.styles__errorText___1PUj6 {
+  color: #e12b0c;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 8px;
+}
+
+.styles__formErrorText___3SLqE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-right: 12px;
+}
+
+.styles__section___csH8A {
+  margin-bottom: 20px;
+}
+
+/* Review Guidelines */
+
+.styles__list___2C8Yj {
+  padding-left: 40px;
+}
+
+.styles__reviewGuidelines___3qFlR {
+  padding-top: 12px;
+  color: #8f9ea8;
+}
+
+.styles__expandListItem___1Om-M {
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.styles__expandTitle___iE4bt {
+  margin-bottom: 8px;
+}
+
+.styles__expandBody___3C7vf > div {
+  margin-bottom: 8px;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___K2it5 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___3xnw5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___3xnw5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1GsDU {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1GsDU {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__box___2xwmj {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  position: relative;
+  background-color: #ffffff;
+  padding: 32px 16px 32px 56px;
+  border: solid 1px #e0e4e7;
+  color: #8f9ea8;
+  margin-bottom: 12px;
+}
+
+.styles__flag___2KFjO {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  opacity: 0.22;
+}
+
+.styles__ratingsSummary___JQCwl {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: #ffffff;
+  border: solid 1px #e0e4e7;
+  color: #8f9ea8;
+  margin-bottom: 12px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___2tN5o {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___26JiD {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___26JiD {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___17l-e {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___17l-e {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__reviewText___2QWaQ {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  margin: 20px 0 24px 0;
+}
+
+.styles__wrapper___2gHsX {
+  -webkit-animation: styles__fadein___26JiD 0.6s;
+          animation: styles__fadein___26JiD 0.6s;
+  background-color: #ffffff;
+  padding: 16px;
+  border: solid 1px #e0e4e7;
+  color: #8f9ea8;
+  margin-bottom: 12px;
+}
+
+.styles__ratingHelpText___3fkax {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-style: italic;
+  color: #8f9ea8;
+}
+
+.styles__link___3ZiH9 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #2496ed;
+  cursor: pointer;
+}
+
+.styles__header___MeQL5 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+  color: #445d6e;
+  margin-bottom: 16px;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___2kUR_ {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___2v85f {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___2v85f {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___Qg18I {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___Qg18I {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* From product detail page */
+
+.styles__reviewsSidebar___39kR0 {
+  padding-left: 32px;
+  padding-top: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__reviewsSidebar___39kR0 {
+    padding: 0;
+    margin-bottom: 16px;
+  }
+}
+
+.styles__startReviewSection___2vUI1 {
+  -webkit-animation: styles__fadein___2v85f 0.6s;
+          animation: styles__fadein___2v85f 0.6s;
+  background-color: #ffffff;
+  padding: 16px;
+  border: solid 1px #e0e4e7;
+  position: relative;
+}
+
+.styles__review___PSMVW {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.styles__start___21tDx {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #2496ed;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 16px;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___2aeUn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1WPex {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1WPex {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___27EYe {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___27EYe {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__chip___3ZtYi {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f4f6;
+  border-radius: 2px;
+  color: #81939f;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 10px;
+}
+
+.styles__clickable___1fzXr {
+  cursor: pointer;
+  text-decoration: none
+}
+
+.styles__clickable___1fzXr:hover {
+  opacity: 0.7;
+}
+
+.styles__withIcon___2uxjQ {
+  background-color: #e0e4e7;
+  color: #445d6e;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 12px;
+}
+
+.styles__icon___3K8bU {
+  width: 13px;
+  height: 13px;
+}
+
+.styles__icon___3K8bU {
+  margin-right: 10px;
+  fill: #445d6e;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3-YTs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1uFK5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1uFK5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___A_wdT {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___A_wdT {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* hide the ALT text in certain browsers (firefox) */
+
+.styles__hideAltText___IyemE {
+  color: transparent;
+}
+
+/*
+ * Make sure there is no flash between when the image calls onLoad() and the
+ * loaded styles are applied
+ */
+
+.styles__hideFadeInFlash___29bQM {
+  opacity: 0;
+}
+
+.styles__fadeInImage___dfisB {
+  -webkit-animation: styles__fadein___1uFK5 0.6s;
+          animation: styles__fadein___1uFK5 0.6s;
+}
+
+.styles__img___1KBGq {
+  /*
+    The img this component renders is wrapped in a span. If that span is
+    positioned with specific dimensions, we want the image to match them.
+  */
+  width: 100%;
+  height: auto;
+}
+
+@keyframes styles__fadein___1uFK5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3RTTD {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___oWz4B {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___oWz4B {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___iCvYG {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___iCvYG {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__logo___1_hKw {
+  width: 120px;
+  height: 120px;
+}
+
+.styles__logo___1_hKw {
+  border-radius: 2px;
+}
+
+@media only screen and (min-width: 601px) {
+  .styles__header___2pQKr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__header___2pQKr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.styles__productInfoSection___1pJeX {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__productInfoSection___1pJeX {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+    .styles__productInfoSection___1pJeX .styles__productInfo___3pzZk {
+      margin-left: 0;
+    }
+}
+
+.styles__productInfo___3pzZk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 24px;
+}
+
+.styles__productInfo___3pzZk > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+}
+
+.styles__productNameLine___2QJsS {
+  margin: 0 0 8px 0;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__productNameLine___2QJsS h1 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+  }
+
+.styles__productNameLine___2QJsS > .styles__profileLink___22_gC,
+  .styles__productNameLine___2QJsS > .styles__productNameBadge___333h6 {
+    margin-left: 12px;
+  }
+
+.styles__productNameLine___2QJsS .styles__productNameStar___UV_cC {
+    /* less spacing than other items in this container because StarCount has intrinsic padding */
+    margin-left: 4px;
+  }
+
+.styles__publisherName___7j1AT {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 8px;
+}
+
+.styles__productDescription___2vi1Q {
+  margin-bottom: 8px;
+}
+
+.styles__fallbackElement___Fl-e7 {
+  width: 120px;
+  height: 120px;
+}
+
+.styles__fallbackElement___Fl-e7 {
+  fill: #8f9ea8;/* This element *sometimes* appears in a flex layout. If it does, it
+    shouldn't shrink. */
+  -ms-flex-preferred-size: 120px;
+      flex-basis: 120px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.styles__planName___3IpD_ {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+.styles__pullCommand___2WJ-i {
+  width: 375px;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__pullCommand___2WJ-i {
+    margin: 20px 0;
+  }
+}
+
+.styles__profileLink___22_gC {
+  text-decoration: none;
+  color: #2496ed;
+  cursor: pointer;
+}
+
+.styles__profileLink___22_gC:hover {
+  color: #1798de;
+}
+
+.styles__profileLink___22_gC {
+  font-weight: 600;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___1l-EO {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1JKcg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1JKcg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1Xoj7 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1Xoj7 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__stats___1FWIQ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.styles__stats___1FWIQ div:first-child {
+    margin-right: 20px;
+  }
+
+.styles__chip___OyzWo {
+  margin: 0 10px 16px 0;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___1fbnu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___JxeiB {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___JxeiB {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___vnyM6 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___vnyM6 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* Backgrounds and Layout */
+
+.styles__fullWhiteBackground___3DkEY {
+  background: #ffffff;
+  border-bottom: solid 1px #e0e4e7;
+}
+
+.styles__header___1VKQQ {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 601px) {
+  .styles__splitSections___3jvin {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .styles__splitSections___3jvin > * {
+    lost-column-cycle: 2;
+  }
+  .styles__splitSections___3jvin > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66.6% - 4px);
+    max-width: calc(66.6% - 4px);
+    width: calc(66.6% - 4px);
+  }
+  .styles__splitSections___3jvin > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__splitSections___3jvin > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+  .styles__splitSections___3jvin > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .styles__splitSections___3jvin > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+  .styles__splitSections___3jvin > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__splitSections___3jvin > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+  .styles__splitSections___3jvin > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__rightBorder___2bUo6 {
+    border-right: solid 1px #e0e4e7;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__rightBorder___2bUo6 {
+    padding-left: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.styles__descriptionSection___323uc {
+  padding-top: 48px;
+}
+
+.styles__topPadding___1_WPS {
+  padding-top: 48px;
+}
+
+.styles__loading___1fwXk {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+@media (min-width: 600px) {
+
+  .styles__loading___1fwXk {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.styles__loading___1fwXk {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 auto;
+          flex: 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+}
+
+/* Versions and Subscriptions */
+
+.styles__versionsAndSubscriptions___3RDVm {
+  padding-left: 20px;
+
+  /* Make sure children can take up all vertical space */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__versionsAndSubscriptions___3RDVm {
+    padding: 12px;
+  }
+}
+
+.styles__versionsAndSubscriptionsLoading___ckZjI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__link___3FnJc {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+  margin-right: 24px;
+}
+
+.styles__flexRow___1cucl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__shield___RX-L9 {
+  fill: #00b6b5;
+  margin-right: 8px;
+}
+
+.styles__pullCommand___lFodR {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+  margin-bottom: 12px;
+}
+
+.styles__pullCode___1LdAt {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: #27343b;
+  color: #ffffff;
+  padding: 8px 12px;
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  height: 44px;
+}
+
+/* Description */
+
+.styles__description___2kl0t {
+  margin-bottom: 32px;
+}
+
+.styles__productDescription___Dg5sR > *:first-child {
+    margin-top: 0;
+  }
+
+.styles__productDescription___Dg5sR > *:last-child {
+    margin-bottom: 0;
+  }
+
+/* Do not let a child img element stretch outside of the parent's bounds */
+
+.styles__productDescription___Dg5sR img {
+    max-width: 100%;
+  }
+
+/* Screenshots */
+
+.styles__screenshots___1rDji {
+  margin-bottom: 32px;
+}
+
+.styles__screenshot___3Ozy2 {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.styles__fallbackElementScreenshot___1CjKn {
+
+  font-size: 14px;
+
+  line-height: 20px;
+
+  font-weight: 400;
+
+  letter-spacing: normal;
+  background-color: #e0e4e7;
+  color: #8f9ea8;
+  padding: 48px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2px;
+  font-style: italic;
+}
+
+/* Links */
+
+.styles__partnerLinks___10m5i {
+  text-decoration: underline;
+  color: #8f9ea8
+}
+
+.styles__partnerLinks___10m5i > a {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.styles__sectionTitle___2NTQJ {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 16px;
+}
+
+/* Tabs + Ratings */
+
+.styles__tabsWrapper___dovD0 {
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__tabContent___2U0ZX {
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__tabContent___2U0ZX {
+    padding-bottom: 0;
+  }
+}
+
+.styles__tabWidth___3cKM- {
+  width: 100%
+}
+
+.styles__tabWidth___3cKM-:hover {
+  cursor: pointer;
+}
+
+.styles__ratingTitle___E6hma {
+  display: inline-block;
+}
+
+.styles__tabs___3XX5H {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__tab___3jGIJ {
+  min-width: 100px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #445d6e
+}
+
+.styles__tab___3jGIJ:hover {
+  color: #2496ed;
+}
+
+.styles__selected___2QocU {
+  font-weight: 600;
+  color: #2496ed;
+  border-bottom: 2px solid #2496ed;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___kuTr2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___2lTac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___2lTac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___220xl {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___220xl {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__header___2VMqN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__avatar___KSvcS {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.styles__ratingAndResponseBtn___LWV-h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__reviewContent___3D2Em,
+.styles__rating___FCI7M {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.styles__publisherResponseBtn___1289B {
+  color: #2496ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.styles__publisherResponse___99rG6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px;
+}
+
+.styles__publisherResponseOutdatedMsg___3GgJz {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+  font-style: italic;
+}
+
+.styles__publisherName___1ODLN {
+  font-weight: 600;
+}
+
+.styles__replyIcon___1deXf {
+  fill: #2496ed;
+  margin-top: 2px;
+}
+
+.styles__replyIconInResponse___3zsui {
+  fill: #445d6e;
+  margin-top: 2px;
+}
+
+.styles__bookmark___10x6T {
+  position: absolute;
+
+  /* Offset by 2px to hide top of flag, 6px is half of flag width */
+  top: 30px;
+  left: calc(50% - 6px);
+}
+
+/* Wrap SVG with this positioned div so that it goes behind the image */
+
+.styles__positionBookmark___2PV6n {
+  position: relative;
+  z-index: -1;
+}
+
+.styles__avatarWrapper___4M35Y {
+  /* Fix safari issue where min-width of image was not respected */
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  position: relative;
+  margin-right: 8px;
+}
+
+.styles__outline___10KiY {
+  border-bottom: solid 1px #e0e4e7;
+  padding: 24px 0;
+}
+
+.styles__outline___10KiY:not(:last-child) {
+  border-bottom: solid 1px #e0e4e7;
+}
+
+.styles__divider___3za-n {
+  margin: 0 16px;
+  font-weight: bold;
+}
+
+.styles__reviewText___QtfmK {
+  margin-top: 12px;
+  white-space: pre-wrap;
+}
+
+.styles__userOptions___16JNl {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px;
+  color: #8f9ea8;
+  font-style: italic;
+}
+
+.styles__link___QMsyY {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___1xMNM {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___3LF88 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___3LF88 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___22tFF {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___22tFF {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__loading___2J7xF {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___18EyC {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___j7GEW {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___j7GEW {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___Vmd8w {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___Vmd8w {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* Versions and Subscriptions */
+
+.styles__flexColumn___2xlct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100%;
+}
+
+.styles__bottomSpacing___1_BN6 {
+  margin-bottom: 24px;
+}
+
+.styles__preview___2TKPu {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: #e0e4e7;
+  color: #8f9ea8;
+  padding: 48px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2px;
+  font-style: italic;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.styles__link___js1L3 {
+  -webkit-animation: styles__fadein___j7GEW 0.6s;
+          animation: styles__fadein___j7GEW 0.6s;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+  display: block;
+  padding-top: 12px;
+}
+
+.styles__loadingButton___2R5cR {
+  margin: 0 auto;
+}
+

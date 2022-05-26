@@ -1,0 +1,2257 @@
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___23RKU {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1A_uH {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1A_uH {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1hj_X {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1hj_X {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__account___-xe3q {
+  margin: 12px 0 24px 0;
+}
+
+.styles__sectionTitle___1Mzui {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 12px 0;
+  font-weight: 600;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3v4nO {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___2RWrA {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___2RWrA {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___31_Vj {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___31_Vj {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__link___3BuX9 {
+  color: #445d6e;
+  display: inline;
+}
+
+.styles__inlineMarkdown___2P-t6 p {
+  margin-top: 0;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___qczGp {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___33txX {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___33txX {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1j40P {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1j40P {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__details___1RwuL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.styles__details___1RwuL hr {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+.styles__pricingTier___1bk0z {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.styles__payment___3lHtb {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #8f9ea8;
+}
+
+.styles__cost___F5wOZ,
+.styles__trialWarning___3xj1Y {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.styles__price___3F6dp {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+.styles__submit___ZAY8d {
+  cursor: pointer;
+  margin: 0;
+  white-space: inherit;
+}
+
+.styles__card____g4VZ {
+  padding: 32px;
+  height: 100%;
+}
+
+.styles__hr___N-sNv {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.styles__eusa___3Sk0L {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__eusa___3Sk0L svg {
+    fill: #c0c9ce;
+  }
+
+.styles__error___JqUV0 {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  height: 16px;
+  color: #e12b0c;
+  margin-bottom: 24px;
+}
+
+.styles__manageSubscriptions___3lLZA {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  padding: 12px;
+  background: #f7f7f8;
+  margin-bottom: 24px;
+}
+
+.styles__manageLink___2EDs6 {
+  cursor: pointer;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___Vp8_F {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___18cYN {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___18cYN {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___3Qjo4 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___3Qjo4 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.styles__card___2bX72 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  display: inline-block;
+  background-color: #fbfbfc;
+  border: 1px solid #c0c9ce;
+  padding: 20px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.styles__selectedCard___2sSt4 {
+  border-color: #2496ed;
+}
+
+.styles__expiration___13lNL {
+  color: #8f9ea8;
+}
+
+.styles__lastFour___2_eGQ {
+  font-weight: 600;
+}
+
+/* stylelint-disable */
+ {
+
+  @-webkit-keyframes slider__rcSliderTooltipZoomDownIn___2dglr {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+
+    100% {
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+  }
+
+  @-webkit-keyframes slider__rcSliderTooltipZoomDownOut___3RbHW {
+    0% {
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    100% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+  }
+}
+.rc-slider {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #e9e9e9;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.rc-slider * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.rc-slider-track {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #abe2fb;
+    z-index: 1;
+  }
+.rc-slider-handle {
+    position: absolute;
+    margin-top: -5px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 2px #96dbfa;
+    background-color: #ffffff;
+    z-index: 2;
+  }
+.rc-slider-handle:hover {
+    border-color: #57c5f7;
+  }
+.rc-slider-handle-active:active {
+    border-color: #57c5f7;
+    -webkit-box-shadow: 0 0 5px #57c5f7;
+            box-shadow: 0 0 5px #57c5f7;
+  }
+.rc-slider-mark {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+    z-index: 3;
+  }
+.rc-slider-mark-text {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    color: #999999;
+  }
+.rc-slider-mark-text-active {
+    color: #666666;
+  }
+.rc-slider-step {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    z-index: 1;
+  }
+.rc-slider-dot {
+    position: absolute;
+    bottom: -2px;
+    margin-left: -4px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #e9e9e9;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+.rc-slider-dot:first-child {
+    margin-left: -4px;
+  }
+.rc-slider-dot:last-child {
+    margin-left: -4px;
+  }
+.rc-slider-dot-active {
+    border-color: #96dbfa;
+  }
+.rc-slider-disabled {
+    background-color: #e9e9e9;
+  }
+.rc-slider-disabled .rc-slider-track {
+    background-color: #cccccc;
+  }
+.rc-slider-disabled .rc-slider-handle, .rc-slider-disabled .rc-slider-dot {
+    border-color: #cccccc;
+    background-color: #ffffff;
+    cursor: not-allowed;
+  }
+.rc-slider-disabled .rc-slider-mark-text, .rc-slider-disabled .rc-slider-dot {
+    cursor: not-allowed !important;
+  }
+.rc-slider-vertical {
+    width: 4px;
+    height: 100%;
+  }
+.rc-slider-vertical .rc-slider-track {
+    bottom: 0;
+    width: 4px;
+  }
+.rc-slider-vertical .rc-slider-handle {
+    position: absolute;
+    margin-left: -5px;
+    margin-bottom: -7px;
+  }
+.rc-slider-vertical .rc-slider-mark {
+    top: 0;
+    left: 10px;
+    height: 100%;
+  }
+.rc-slider-vertical .rc-slider-step {
+    height: 100%;
+    width: 4px;
+  }
+.rc-slider-vertical .rc-slider-dot {
+    left: 2px;
+    margin-bottom: -4px;
+  }
+.rc-slider-vertical .rc-slider-dot:first-child {
+    margin-bottom: -4px;
+  }
+.rc-slider-vertical .rc-slider-dot:last-child {
+    margin-bottom: -4px;
+  }
+.rc-slider-tooltip-zoom-down-enter, .rc-slider-tooltip-zoom-down-appear {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: block !important;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+.rc-slider-tooltip-zoom-down-leave {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: block !important;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+.rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active, .rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active {
+    -webkit-animation-name: rcSliderTooltipZoomDownIn;
+    animation-name: rcSliderTooltipZoomDownIn;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+  }
+.rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {
+    -webkit-animation-name: rcSliderTooltipZoomDownOut;
+    animation-name: rcSliderTooltipZoomDownOut;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+  }
+.rc-slider-tooltip-zoom-down-enter, .rc-slider-tooltip-zoom-down-appear {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+.rc-slider-tooltip-zoom-down-leave {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+@keyframes slider__rcSliderTooltipZoomDownIn___2dglr {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+
+    100% {
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+  }
+@keyframes slider__rcSliderTooltipZoomDownOut___3RbHW {
+    0% {
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    100% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+  }
+.rc-slider-tooltip {
+    display: none;
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    z-index: 4;
+    visibility: visible;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.rc-slider-tooltip * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.rc-slider-tooltip-hidden {
+    display: none;
+  }
+.rc-slider-tooltip-placement-top {
+    padding: 4px 0 8px 0;
+  }
+.rc-slider-tooltip-inner {
+    padding: 6px 2px;
+    min-width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #6c6c6c;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 4px #d9d9d9;
+            box-shadow: 0 0 4px #d9d9d9;
+  }
+.rc-slider-tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+  }
+.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
+    bottom: 4px;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px 4px 0;
+    border-top-color: #6c6c6c;
+  }
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___2AFiM {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1LcQ0 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1LcQ0 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___2gH72 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___2gH72 {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.rc-slider {
+    height: 7px !important;
+    border-radius: 3px;
+    background-color: #d4dadf;
+  }
+
+.rc-slider-track {
+    height: 7px !important;
+    background-color: #2496ed;
+  }
+
+.rc-slider-handle {
+    margin-top: -6px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-width: 1px;
+    border-color: #d4dadf
+  }
+
+.rc-slider-handle:hover {
+  border-color: #2496ed;
+  background-color: #f3f9ff;
+}
+
+.rc-slider-tooltip-placement-top {
+    padding: 0;
+  }
+
+.rc-slider-tooltip-inner {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    background: #2496ed;
+    border-color: #2496ed;
+    visibility: visible;
+    border-radius: 3px;
+    padding: 4px 2px;
+    min-width: 32px;
+    font-weight: 600;
+  }
+
+.rc-slider-tooltip-inner span {
+    display: inline-block;
+  }
+
+.rc-slider-tooltip-arrow {
+    border: none;
+  }
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___3ESh- {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___2nshC {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___2nshC {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___1u2MF {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___1u2MF {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .styles__row___GJmuO {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .styles__row___GJmuO > * {
+    lost-column-cycle: 2;
+  }
+  .styles__row___GJmuO > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(49.95% - 6px);
+    max-width: calc(49.95% - 6px);
+    width: calc(49.95% - 6px);
+  }
+  .styles__row___GJmuO > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__row___GJmuO > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+  .styles__row___GJmuO > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .styles__row___GJmuO > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(49.95% - 6px);
+    max-width: calc(49.95% - 6px);
+    width: calc(49.95% - 6px);
+  }
+  .styles__row___GJmuO > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__row___GJmuO > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+  .styles__row___GJmuO > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .styles__row___GJmuO {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .styles__cardRow___2OIFM {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .styles__cardRow___2OIFM > * {
+    lost-column-cycle: 3;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(49.95% - 6px);
+    max-width: calc(49.95% - 6px);
+    width: calc(49.95% - 6px);
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(16.65% - 10px);
+    max-width: calc(16.65% - 10px);
+    width: calc(16.65% - 10px);
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(3) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(3):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(3):last-child {
+    margin-right: 0;
+  }
+
+  .styles__cardRow___2OIFM > *:nth-child(3):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__cardRow___2OIFM {
+    margin-top: 16px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .styles__postalRow___3zVpz {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .styles__postalRow___3zVpz > * {
+    lost-column-cycle: 3;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(3) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(3):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(3):last-child {
+    margin-right: 0;
+  }
+
+  .styles__postalRow___3zVpz > *:nth-child(3):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__couponRow___PTwP0 {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .styles__couponRow___PTwP0 > * {
+    lost-column-cycle: 2;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(74.925% - 3px);
+    max-width: calc(74.925% - 3px);
+    width: calc(74.925% - 3px);
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(24.975% - 9px);
+    max-width: calc(24.975% - 9px);
+    width: calc(24.975% - 9px);
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+
+  .styles__couponRow___PTwP0 > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .styles__couponRow___PTwP0 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__row___GJmuO,
+  .styles__cardRow___2OIFM,
+  .styles__postalRow___3zVpz,
+  .styles__couponRow___PTwP0 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.styles__soft___3X8Jr {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #c0c9ce;
+  font-weight: bold;
+}
+
+.styles__subtitle___3wfwu {
+  margin-bottom: 24px;
+}
+
+.styles__sectionTitle___3AP5s {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 12px 0;
+  font-weight: 600;
+}
+
+.styles__sectionSub___1JZzL {
+  margin: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40px;
+}
+
+.styles__sectionSub___1JZzL span {
+    margin-bottom: 8px;
+  }
+
+.styles__trialText___1s9cN {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+}
+
+.styles__card___39qSS {
+  padding: 32px;
+}
+
+.styles__plans___1wqqC,
+.styles__engines___2nCsN {
+  display: flex;
+  flex-flow: row wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.styles__plans___1wqqC > *, .styles__engines___2nCsN > * {
+  lost-column-cycle: 2;
+}
+
+.styles__plans___1wqqC > *:nth-child(1), .styles__engines___2nCsN > *:nth-child(1) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 8px);
+  max-width: calc(33.3% - 8px);
+  width: calc(33.3% - 8px);
+}
+
+.styles__plans___1wqqC > *:nth-child(1):nth-child(1n), .styles__engines___2nCsN > *:nth-child(1):nth-child(1n) {
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.styles__plans___1wqqC > *:nth-child(1):last-child, .styles__engines___2nCsN > *:nth-child(1):last-child {
+  margin-right: 0;
+}
+
+.styles__plans___1wqqC > *:nth-child(1):nth-child(12n), .styles__engines___2nCsN > *:nth-child(1):nth-child(12n) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.styles__plans___1wqqC > *:nth-child(2), .styles__engines___2nCsN > *:nth-child(2) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(66.6% - 4px);
+  max-width: calc(66.6% - 4px);
+  width: calc(66.6% - 4px);
+}
+
+.styles__plans___1wqqC > *:nth-child(2):nth-child(1n), .styles__engines___2nCsN > *:nth-child(2):nth-child(1n) {
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.styles__plans___1wqqC > *:nth-child(2):last-child, .styles__engines___2nCsN > *:nth-child(2):last-child {
+  margin-right: 0;
+}
+
+.styles__plans___1wqqC > *:nth-child(2):nth-child(12n), .styles__engines___2nCsN > *:nth-child(2):nth-child(12n) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.styles__pricingComponents___1JTQN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.styles__component___1Nxug {
+  display: flex;
+  flex-flow: row wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.styles__component___1Nxug > * {
+  lost-column-cycle: 2;
+}
+
+.styles__component___1Nxug > *:nth-child(1) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(24.975% - 9px);
+  max-width: calc(24.975% - 9px);
+  width: calc(24.975% - 9px);
+}
+
+.styles__component___1Nxug > *:nth-child(1):nth-child(1n) {
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.styles__component___1Nxug > *:nth-child(1):last-child {
+  margin-right: 0;
+}
+
+.styles__component___1Nxug > *:nth-child(1):nth-child(12n) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.styles__component___1Nxug > *:nth-child(2) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(74.925% - 3px);
+  max-width: calc(74.925% - 3px);
+  width: calc(74.925% - 3px);
+}
+
+.styles__component___1Nxug > *:nth-child(2):nth-child(1n) {
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.styles__component___1Nxug > *:nth-child(2):last-child {
+  margin-right: 0;
+}
+
+.styles__component___1Nxug > *:nth-child(2):nth-child(12n) {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.styles__component___1Nxug {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.styles__plansRadio___3Y8s0 {
+  margin: 12px 0;
+}
+
+.styles__paymentMethod___2rr7r {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30%;
+  background: #fbfbfc;
+  min-width: 200px;
+  border: 1px solid #066da5;
+}
+
+.styles__error___PZt3r {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  height: 16px;
+  color: #e12b0c;
+  margin: 0 40px;
+}
+
+.styles__softErr___hPdCV {
+  color: #e12b0c;
+}
+
+/* defined here: https://www.figma.com/file/rien0oukkvklddrnv8akct/all-colors_dds-(copy) */
+
+/* a.k.a. docker red */
+
+/* a.k.a. docker blue */
+
+/* a.k.a. docker green */
+
+/* media queries */
+
+/* lib/constants/sizes */
+
+/* layout */
+
+/* spacing */
+
+/* misc */
+
+/* body font sizes */
+
+/* heading font sizes */
+
+/* font family */
+
+/* -----------------------------------------------------------------------------
+ | Color Dictionary
+----------------------------------------------------------------------------- */
+
+/* Purples - lightest to darkest */
+
+/* Blues - lightest to darkest */
+
+/* Greens - lightest to darkest */
+
+/* Reds - lightest to darkest */
+
+/* Yellows - lightest to darkest */
+
+/* Grays - lightest to darkest */
+
+/* -----------------------------------------------------------------------------
+ | Color Purpose Vars
+----------------------------------------------------------------------------- */
+
+/* -base background colors */
+
+/* lib/constants/variants */
+
+/* CTA component colors */
+
+/* cohesion font colors */
+
+/* Autobuilds Colors */
+
+/* audit logs colors */
+
+/* State Colors */
+
+/* -- These use colors not found in the styleguide -- */
+
+/* - end -- */
+
+/* Note: These are volumes states and not actual/valid object states.
+ Added here for completion
+*/
+
+/* button */
+
+/* select */
+
+/* input */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+/* box-shadow for store cards */
+
+/* component: tab */
+
+/* Publish flow */
+
+/* Public Profile */
+
+/* v2 */
+
+/* Sign up form width */
+
+/**
+  This was extracted from the Wrapped component. There are subtle differences
+  from the wrapped mixin, but they could probably be unified with a little
+  effort.
+
+  It's defined here as a rule rather than a mixin so it can be used with
+  `composes`, which generally yields smaller code bundles.
+*/
+
+.styles__wrapped___2-ss4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* https://goo.gl/Mus6xj */
+
+/* Font sizes */
+
+/* columns */
+
+/* Three equal columns */
+
+/* Rows */
+
+/* TODO:  Use flex. Flexbox doesn't seem to work on iOS safari/chrome
+          when overriding a lost column for small devices (?)(Registration page)
+*/
+
+@-webkit-keyframes styles__fadein___1eVt1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes styles__fadein___1eVt1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* flex does not work inside firefox buttons, this is a workaround
+   http://stackoverflow.com/questions/24289251/flexbox-not-working-in-buttons-in-firefox */
+
+/* Causes text that overflows in an element to be truncated with an ellipsis. */
+
+/*
+ A little trick for vertically centering text content that doesn't wrap when
+ the element's height is known.
+*/
+
+@-webkit-keyframes styles__load8___DvEYk {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes styles__load8___DvEYk {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .styles__purchasePage___3zeJ8 {
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .styles__purchasePage___3zeJ8 > * {
+    lost-column-cycle: 2;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(1) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66.6% - 4px);
+    max-width: calc(66.6% - 4px);
+    width: calc(66.6% - 4px);
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(1):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(1):last-child {
+    margin-right: 0;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(1):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(2) {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 8px);
+    max-width: calc(33.3% - 8px);
+    width: calc(33.3% - 8px);
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(2):nth-child(1n) {
+    margin-right: 12px;
+    margin-left: 0;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(2):last-child {
+    margin-right: 0;
+  }
+  .styles__purchasePage___3zeJ8 > *:nth-child(2):nth-child(12n) {
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .styles__purchasePage___3zeJ8 {
+    margin-bottom: 76px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .styles__purchasePage___3zeJ8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .styles__form___3AZbr {
+    margin-bottom: 16px;
+  }
+}
+
+.styles__form___3AZbr {
+  position: relative;
+}
+
+.styles__loading___3Peh6 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
