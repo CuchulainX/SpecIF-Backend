@@ -29,11 +29,16 @@
   </ItemGroup>
 
   <ItemGroup>
+      <ProjectReference Include="..\MDD4All.SpecIF.Converters\src\MDD4All.SpecIF.Converters\MDD4All.SpecIF.Converters.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.Contracts\src\MDD4All.SpecIF.DataIntegrator.Contracts\MDD4All.SpecIF.DataIntegrator.Contracts.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.KafkaListener\src\MDD4All.SpecIF.DataIntegrator.KafkaListener\MDD4All.SpecIF.DataIntegrator.KafkaListener.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.DataModels.RightsManagement\src\MDD4All.SpecIF.DataModels.RightsManagement\MDD4All.SpecIF.DataModels.RightsManagement.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.DataModels\src\MDD4All.SpecIF.DataModels\MDD4All.SpecIF.DataModels.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.EA\src\MDD4All.SpecIF.DataProvider.EA\MDD4All.SpecIF.DataProvider.EA.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Integration\src\MDD4All.SpecIF.DataProvider.Integration\MDD4All.SpecIF.DataProvider.Integration.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Jira\src\MDD4All.SpecIF.DataProvider.Jira\MDD4All.SpecIF.DataProvider.Jira.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvider\MDD4All.SpecIF.ServiceDataProvider.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.IntegrationService\src\MDD4All.SpecIF.ViewModels.IntegrationService\MDD4All.SpecIF.ViewModels.IntegrationService.csproj" />
       <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.SpecIfEvent\src\MDD4All.SpecIF.ViewModels.SpecIfEvent\MDD4All.SpecIF.ViewModels.SpecIfEvent.csproj" />
   </ItemGroup>
     <ItemGroup>
