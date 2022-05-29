@@ -16,12 +16,11 @@
   <ItemGroup>
     <PackageReference Include="CommonServiceLocator" Version="2.0.2" />
     <PackageReference Include="Consul" Version="1.6.1.1" />
+    <PackageReference Include="MDD4All.EAFacade.DataModels.Contracts" Version="2.1.1.257" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
-    <PackageReference Include="MongoDB.Driver.signed" Version="2.12.2" />
     <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
-
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
@@ -29,20 +28,14 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
   </ItemGroup>
 
-
-    <ItemGroup>
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.Contracts\src\MDD4All.SpecIF.DataIntegrator.Contracts\MDD4All.SpecIF.DataIntegrator.Contracts.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.EA\src\MDD4All.SpecIF.DataIntegrator.EA\MDD4All.SpecIF.DataIntegrator.EA.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.KafkaListener\src\MDD4All.SpecIF.DataIntegrator.KafkaListener\MDD4All.SpecIF.DataIntegrator.KafkaListener.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataModels.RightsManagement\src\MDD4All.SpecIF.DataModels.RightsManagement\MDD4All.SpecIF.DataModels.RightsManagement.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.EA\src\MDD4All.SpecIF.DataProvider.EA\MDD4All.SpecIF.DataProvider.EA.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.File\src\MDD4All.SpecIF.DataProvider.File\MDD4All.SpecIF.DataProvider.File.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Integration\src\MDD4All.SpecIF.DataProvider.Integration\MDD4All.SpecIF.DataProvider.Integration.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.MongoDB\src\MDD4All.SpecIF.DataProvider.MongoDB\MDD4All.SpecIF.DataProvider.MongoDB.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvider\MDD4All.SpecIF.ServiceDataProvider.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.IntegrationService\src\MDD4All.SpecIF.ViewModels.IntegrationService\MDD4All.SpecIF.ViewModels.IntegrationService.csproj" />
-        <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.SpecIfEvent\src\MDD4All.SpecIF.ViewModels.SpecIfEvent\MDD4All.SpecIF.ViewModels.SpecIfEvent.csproj" />
-    </ItemGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\MDD4All.SpecIF.DataIntegrator.Contracts\src\MDD4All.SpecIF.DataIntegrator.Contracts\MDD4All.SpecIF.DataIntegrator.Contracts.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataModels.RightsManagement\src\MDD4All.SpecIF.DataModels.RightsManagement\MDD4All.SpecIF.DataModels.RightsManagement.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataModels\src\MDD4All.SpecIF.DataModels\MDD4All.SpecIF.DataModels.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.DataProvider.Integration\src\MDD4All.SpecIF.DataProvider.Integration\MDD4All.SpecIF.DataProvider.Integration.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.ServiceDataProvider\src\MDD4All.SpecIF.ServiceDataProvider\MDD4All.SpecIF.ServiceDataProvider.csproj" />
+      <ProjectReference Include="..\MDD4All.SpecIF.ViewModels.SpecIfEvent\src\MDD4All.SpecIF.ViewModels.SpecIfEvent\MDD4All.SpecIF.ViewModels.SpecIfEvent.csproj" />
+  </ItemGroup>
     <ItemGroup>
         <Reference Include="Interop.EA">
             <HintPath>..\libs\Interop.EA.dll</HintPath>
@@ -53,5 +46,34 @@
     <ItemGroup>
         <None Include="wwwroot\*" />
     </ItemGroup>
-    
+  
+      <ItemGroup>
+        <Reference Include="Interop.EA">
+          <HintPath>..\libs\Interop.EA.dll</HintPath>
+          <EmbedInteropTypes>false</EmbedInteropTypes>
+          <Private>true</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="wwwroot\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Scripts\tsconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Scripts\tsconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Dockerfile.yml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="MDD4All.SpecIF.Microservice.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
